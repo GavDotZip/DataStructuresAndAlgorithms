@@ -75,7 +75,6 @@ public class Algorithm {
             tournament.saveIndividual(i, pop.getIndividual(randomId));
         }
         // Get the fittest
-        Individual fittest = tournament.getFittest();
-        return fittest;
+        return tournament.getFittest();
     }
 }
